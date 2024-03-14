@@ -19,11 +19,14 @@ body {
     height: 90%;
     width: 50%;
     border: 1px solid rgb(3, 50, 0);
+    position: relative;
+    
 }
 
 header {
     height: 10%;
     width: 100%;
+    
     background-color: rgb(9, 35, 56);
     color: aliceblue;
     text-align: center;
@@ -147,4 +150,40 @@ header:hover
 {
     background-color: black;
     color:rgb(255, 255, 255);
+}
+
+.more
+{
+    background-color: #a076db;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 20px; */
+    align-items: end;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    width: 60px;
+    right: 10px;
+    top: 85%;
+    display: none;
+
+
+}
+
+
+.clearall
+{
+    background-color: transparent;
+    border: none;
+    border: 1px solid;
+    padding: 5px;
+    background-color: #d4e3df;
+    cursor: pointer;
+    
 }
